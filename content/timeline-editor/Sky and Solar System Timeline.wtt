@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FileCabinet HeaderSize="0x00000139">
+  <Files>
+    <File Name="Solar System.wwtxml" Size="17289" Offset="0" />
+    <File Name="ff40f584-bceb-4466-9788-8152669e718f\6554c779-8a69-489d-8c84-fc9920363841.thumb.png" Size="4157" Offset="17289" />
+  </Files>
+</FileCabinet>ï»¿<?xml version='1.0' encoding='UTF-8'?>
+<Tour ID="ff40f584-bceb-4466-9788-8152669e718f" Title="Sky &amp; Solar System" Descirption="Simple Timeline-based tour that starts showing the sky and constellation figures and then at fades them out and fades in planetary orbits." Description="Simple Timeline-based tour that starts showing the sky and constellation figures and then at fades them out and fades in planetary orbits." RunTime="10" Author="Doug Roberts" AuthorEmail="doctor.spaceman@yahoo.com" OrganizationUrl="www.worldwidetelescope.org" OrganizationName="WorldWide Telescope Team" Keywords="" UserLevel="Beginner" Classification="0" Taxonomy="" DomeMode="False">
+  <TourStops>
+    <TourStop Id="6554c779-8a69-489d-8c84-fc9920363841" Name="" Description="" Thumbnail="" Duration="00:00:10" Master="False" TransitionType="Slew" TransitionTime="2" TransitionOutTime="2" TransitionHoldTime="4" NextSlide="Next" InterpolationType="Linear" HasLocation="True" LocationAltitude="100" LocationLat="47.64222" LocationLng="-122.142" HasTime="True" StartTime="12/31/2013 6:47:39 PM" EndTime="12/31/2013 6:47:39 PM" ActualPlanetScale="True" ShowClouds="False" EarthCutawayView="False" ShowConstellationBoundries="False" ShowConstellationFigures="False" ShowConstellationSelection="True" ShowEcliptic="False" ShowElevationModel="True" ShowFieldOfView="False" ShowGrid="False" ShowHorizon="False" ShowHorizonPanorama="False" ShowMoonsAsPointSource="False" ShowSolarSystem="True" FovTelescope="0" FovEyepiece="0" FovCamera="0" LocalHorizonMode="False" FadeInOverlays="False" SolarSystemStars="True" SolarSystemMilkyWay="True" SolarSystemCosmos="True" SolarSystemOrbits="True" SolarSystemMinorOrbits="False" SolarSystemOverlays="False" SolarSystemLighting="True" ShowISSModel="False" SolarSystemScale="1" SolarSystemMultiRes="True" SolarSystemMinorPlanets="False" SolarSystemPlanets="True" ShowEarthSky="True" ShowEquatorialGridText="False" ShowGalacticGrid="False" ShowGalacticGridText="False" ShowEclipticGrid="False" ShowEclipticGridText="False" ShowEclipticOverviewText="False" ShowAltAzGrid="False" ShowAltAzGridText="False" ShowPrecessionChart="False" ConstellationPictures="False" ConstellationsEnabled="" ShowConstellationLabels="False" ShowSkyOverlays="True" ShowConstellations="True" ShowSkyNode="True" ShowSkyGrids="True" SkyOverlaysIn3d="False" ConstellationFiguresFilter="-1,-1,33554431" ConstellationBoundariesFilter="-1,-1,33554431" ConstellationNamesFilter="-1,-1,33554431" ConstellationArtFilter="-1,-1,33554431">
+      <Place Name="Current Screen" DataSetType="SolarSystem" Lat="0" Lng="0" Constellation="" Classification="Unidentified" Magnitude="0" Distance="0" AngularSize="60" ZoomLevel="360" Rotation="0" Angle="0" Opacity="100" Target="Sun" ViewTarget="2.84462830244317E-19, 0, 0.004645784" TargetReferenceFrame="" DomeAlt="0" DomeAz="0">
+        <Description><![CDATA[]]></Description>
+        <BackgroundImageSet>
+          <ImageSet Generic="False" DataSetType="SolarSystem" BandPass="Visible" Name="3D Solar System View" Url="http://SolarSystem" DemUrl="" BaseTileLevel="0" TileLevels="0" BaseDegreesPerTile="180" FileType=".png" BottomsUp="False" Projection="Toast" QuadTreeMap="0123" CenterX="0" CenterY="0" OffsetX="0" OffsetY="0" Rotation="0" Sparse="False" ElevationModel="False" StockSet="False" WidthFactor="1" MeanRadius="0" ReferenceFrame="Sun">
+            <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=SolarSystem</ThumbnailUrl>
+          </ImageSet>
+        </BackgroundImageSet>
+      </Place>
+      <Overlays>
+        <Overlay Id="def258bd-122d-44d1-befb-c2caaa0a3a7a" Type="TerraViewer.TextOverlay" Name="Our Solar System" X="977.9818" Y="381.9698" Width="260.9635" Height="46.56249" Rotation="0" Color="ARGBColor:0:255:255:255" Url="" LinkID="" Animate="False" Anchor="Screen">
+          <Text>
+            <TextObject Bold="False" Italic="False" Underline="False" FontSize="24" FontName="Segoe UI" ForgroundColor="ARGBColor:0:255:255:255" BackgroundColor="NamedColor:Black" BorderStyle="None">Our Solar System</TextObject>
+          </Text>
+        </Overlay>
+        <Overlay Id="a7350997-a106-416c-ac21-e0cdb744403d" Type="TerraViewer.TextOverlay" Name="The Sky" X="958.8761" Y="383.0935" Width="122.7135" Height="46.56249" Rotation="0" Color="ARGBColor:255:255:255:255" Url="" LinkID="" Animate="False" Anchor="Screen">
+          <Text>
+            <TextObject Bold="False" Italic="False" Underline="False" FontSize="24" FontName="Segoe UI" ForgroundColor="ARGBColor:255:255:255:255" BackgroundColor="NamedColor:Black" BorderStyle="None">The Sky</TextObject>
+          </Text>
+        </Overlay>
+      </Overlays>
+      <AnimationTargets>
+        <KeyFrames TargetID="Camera" TargetType="Camera" Expanded="False">
+          <Keys ParameterName="DateTime">
+            <Key Time="0" Value="2456658.28309565" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.595833361148834" Value="2456658.28325826" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.898750007152557" Value="2456658.28336082" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Lat">
+            <Key Time="0" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.595833361148834" Value="51.9" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.898750007152557" Value="89.999" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Lng">
+            <Key Time="0" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.595833361148834" Value="5.6999999999955" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.898750007152557" Value="2.75999999999749" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Zoom">
+            <Key Time="0" Value="360" InFunction="Linear" BaseTweenType="Power" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.595833361148834" Value="360" InFunction="Linear" BaseTweenType="Power" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.898750007152557" Value="147.456" InFunction="Linear" BaseTweenType="Power" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Rotation">
+            <Key Time="0" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.595833361148834" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.898750007152557" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Angle">
+            <Key Time="0" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.595833361148834" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.898750007152557" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Opacity">
+            <Key Time="0" Value="100" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.595833361148834" Value="100" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.898750007152557" Value="100" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="ViewTarget.X">
+            <Key Time="0" Value="2.84462830244317E-19" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.595833361148834" Value="-0.000284711523757141" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.898750007152557" Value="-3.90440498095323E-09" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="ViewTarget.Y">
+            <Key Time="0" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.595833361148834" Value="0.00365593013406763" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.898750007152557" Value="0.00464578399929241" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="ViewTarget.Z">
+            <Key Time="0" Value="0.004645784" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.595833361148834" Value="0.00285244161688055" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.898750007152557" Value="8.09901692269377E-08" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="SolarSystemTarget">
+            <Key Time="0" Value="0" InFunction="Linear" BaseTweenType="PlanetID" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.595833361148834" Value="0" InFunction="Linear" BaseTweenType="PlanetID" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.898750007152557" Value="0" InFunction="Linear" BaseTweenType="PlanetID" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Dome.Alt">
+            <Key Time="0" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.595833361148834" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.898750007152557" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Dome.Az">
+            <Key Time="0" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.595833361148834" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.898750007152557" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+        </KeyFrames>
+        <KeyFrames TargetID="def258bd-122d-44d1-befb-c2caaa0a3a7a" TargetType="Overlay" Expanded="False">
+          <Keys ParameterName="Translate.X">
+            <Key Time="0" Value="977.981750488281" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Translate.Y">
+            <Key Time="0" Value="381.969757080078" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Size.Width">
+            <Key Time="0" Value="260.963500976563" InFunction="Linear" BaseTweenType="Power" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Size.Height">
+            <Key Time="0" Value="46.5624885559082" InFunction="Linear" BaseTweenType="Power" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Rotation">
+            <Key Time="0" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Color.Red">
+            <Key Time="0" Value="1" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Color.Green">
+            <Key Time="0" Value="1" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Color.Blue">
+            <Key Time="0" Value="1" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Color.Alpha">
+            <Key Time="0" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.39916667342186" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.499166667461395" Value="1" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+        </KeyFrames>
+        <KeyFrames TargetID="a7350997-a106-416c-ac21-e0cdb744403d" TargetType="Overlay" Expanded="False">
+          <Keys ParameterName="Translate.X">
+            <Key Time="0" Value="958.876098632813" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Translate.Y">
+            <Key Time="0" Value="383.093536376953" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Size.Width">
+            <Key Time="0" Value="122.713523864746" InFunction="Linear" BaseTweenType="Power" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Size.Height">
+            <Key Time="0" Value="46.5624923706055" InFunction="Linear" BaseTweenType="Power" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Rotation">
+            <Key Time="0" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Color.Red">
+            <Key Time="0" Value="1" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Color.Green">
+            <Key Time="0" Value="1" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Color.Blue">
+            <Key Time="0" Value="1" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Color.Alpha">
+            <Key Time="0" Value="1" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.39916667342186" Value="1" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.499166667461395" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+        </KeyFrames>
+        <KeyFrames TargetID="ConstellationFigures" TargetType="StockSkyOverlay" Expanded="False">
+          <Keys ParameterName="Opacity">
+            <Key Time="0" Value="1" InFunction="Custom" BaseTweenType="Linear" P1="0.122171945701357" P2="0.366515837104072" P3="0.819004524886878" P4="0.3710407239819" />
+            <Key Time="0.39916667342186" Value="1" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.499166667461395" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+          <Keys ParameterName="Filter1">
+            <Key Time="0" Value="-1" InFunction="Custom" BaseTweenType="Constant" P1="0.122171945701357" P2="0.366515837104072" P3="0.819004524886878" P4="0.3710407239819" />
+          </Keys>
+          <Keys ParameterName="Filter2">
+            <Key Time="0" Value="-1" InFunction="Custom" BaseTweenType="Constant" P1="0.122171945701357" P2="0.366515837104072" P3="0.819004524886878" P4="0.3710407239819" />
+          </Keys>
+          <Keys ParameterName="Filter3">
+            <Key Time="0" Value="33554431" InFunction="Custom" BaseTweenType="Constant" P1="0.122171945701357" P2="0.366515837104072" P3="0.819004524886878" P4="0.3710407239819" />
+          </Keys>
+        </KeyFrames>
+        <KeyFrames TargetID="SolarSystemOrbits" TargetType="StockSkyOverlay" Expanded="True">
+          <Keys ParameterName="Opacity">
+            <Key Time="0" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.39916667342186" Value="0" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+            <Key Time="0.499166667461395" Value="1" InFunction="Linear" BaseTweenType="Linear" P1="0" P2="0" P3="1" P4="1" />
+          </Keys>
+        </KeyFrames>
+      </AnimationTargets>
+    </TourStop>
+  </TourStops>
+  <ReferenceFrames>
+    <ReferenceFrame Name="ISS" Parent="Earth" ReferenceFrameType="Orbital" Reference="Custom" ParentsRoationalBase="False" MeanRadius="130" Oblateness="0" Heading="0" Pitch="0" Roll="0" Scale="1" Tilt="0" Translation="0, 0, 0" RotationalPeriod="0" ZeroRotationDate="0" RepresentativeColor="NamedColor:White" ShowAsPoint="False" ShowOrbitPath="False" StationKeeping="True" SemiMajorAxis="6793219.96316649" SemiMajorAxisScale="Meters" Eccentricity="0.0003212" Inclination="51.6486" ArgumentOfPeriapsis="97.7461" LongitudeOfAscendingNode="299.7368" MeanAnomolyAtEpoch="254.0523" MeanDailyMotion="5582.0246112" Epoch="2456567.35334491" />
+  </ReferenceFrames>
+  <Layers />
+</Tour>‰PNG
+
+   IHDR   `   -   Q^nŠ   sRGB ®Îé   gAMA  ±üa   	pHYs  Ã  ÃÇo¨d  ÒIDATx^ÍœYwÛF…Å}ßwR»8±ûdfl¿ÎÃü6ÿížûU¡WAqî	€@wÝÚ»¥›R©ô£T* /Žps5JvLž%T*µÐluB«ÝÝ^?‡ãÐB»Ýqt:a s“é<ŒÇÓ0CO÷Fc;Öju¡fÏ®ês§ÛfKÏ­Ú¸K¥J‚Ì<^9‡¿" 
+Ê]üÀJ­Ö0¡!¼þ`dDŒÇ“Ðéˆãóxº³ù*Œ'NÂ@$uDN«ÕÒo›¡\.›ÐÍv¨Õú^1DÁo¿øyìBÊkÈ»qÆ="àeÀo5h¶	¯Ñ”P{fý¾kz«Õ)Ã0-Ã|±“ÉL1²kM	†Èë†rEB×sÊ²ªÒ‹ðõ|¾p.›G©”þªK¥Âûò¯”ä]Kp#r/„ƒ0j¨×[¡×—Hø¸ù|áÂîÂp4	‹åÚ0LÜÏd*2DNWÂç{]ÖêMÛ"¥mÏäÛnh›€SZz)x^EÂÏ»vÞž€’¹Žšüw34Z]	tlÂHà³ÙB_…î÷$b¦:G<€ù|)·$’D‚ÇŒ®bF_÷ê»,©\Vl@è"28š+â½¹ãÉÇµVP þ$Jµ&Ím‡z³Z`SDt{Cî46åüp8‘š›öOgs»g¤ëX…»&p=ƒû+ÕzJ@¥.êzŸ´³`­CKÀ¾¹»B;+P¥Ú07ÔhtLØƒÑ4ŒäóÇ8Hø°„ù‚¸°Ôµ™´^™‘,@BK™Á½*x>Ö ¢;ÚÇ?om‚†zð4KÐê–¬¡£à;3^²ŸáxæAXÑ³!rtn¨Ô” Mú:Òg‚8à®°žå9<ïŒ|Cþ¸.Á‰@ú\OÀñàæ“G¤ŠÄ ´¿ŠðDkŠÄ˜~.V&|, v»i½\Ïx.á+Fà’d¸¢ž\ÇÒÙ¶ÒØè†^ LÈHOP	ysÝ=w\ñàÂ·ì‡ \­†ªòv²O&Óª+& éh55 è*¸BLS±2&>Q¸jŠ5\’»¡¶ÈMoÞé.	xf”?ÎÃ@˜ü6ïZÁ(š ×z„ÀÑ}¿»HÀ_ã†8RP‘AÀp43!#ø±AÁ°‚él­{¨Æ–¾BVÐQ †žmïÄ!pòóä¼ÛãÁiíÌj0if]ãÍ^Ï‚{¯Ñøœß¼Ž€ýè³‹!;‘û1ðmu­¤­`¾^‚ïH áò}¢ <›¯Ãj}¯ã&åŠú]‡ Aœà¾®3Á¸)2qmN°wÇ1Æ‡ì¸
+'`ÛÂ/‘•Høž¡pÎ}r	?­s5¹"\N]YZ=W0^,7"€üÖ›{}¿5+˜N—"€6ÆPîj©80³¸`nI1‚kdX[Æt„€èŠÎ±‚sqIqÇ	¸ÌÌ¸7‡€´Ð¬#Íˆª
+ÌT´­vÏÜŒµ#¬ÞÈ×{j
+óÅÆ0TÚJÐï-8C
+–(ÎHm«z®=_¸ðîb‚q—Éæ @êU­^jº0AJN€çæîz<HV=•¶6[4ç(°Èý§òñîû=õÄÿ+ý1âùâV.éÎÎs/$¹Û¢»êq´”æ½¦ŠÞAàÇ-™2å ¸^”ßÅ» ²à$àì³¹®A€2!¹Z}	—â‚T< ¸Šˆ¹RÓÙ|iŸÉz°„ÅêÎÎá~°ˆ©2§$M)5GÚM‘ã@tA×f³•ïe8äz^a‡	à¡§¼{ÝL=jz:ÚGð\ãèA²j"¡-×&#hÚhsWÙ@dIÑf²«dCjÔ}i>)*×9o×„¶4ñÅ:§ŒéBt‰Pß„ ´åX×/Ÿ Îaâád¤Ö Ü˜­0«Š„ZGAXYŒ
+0[¸ÈŽ|§'aâã=]Ê
+–ÊŒ(Þ°
+
+6H äM¼©YU[×ø=n+´ñØ¸³ã=Œüù]žqÄíÝü(â%ž“€gš¸%  ‚£d*¸‡¦Ái´«–Û³(ƒ`³ÛCÀË°\mäûqCëÈ„fº)€%!|@ÆT“¥ù:AÞ˜·áBÏ¿vñ7åëäXdÈà-ˆmíw"ÌYM 	ÇJÃŽÌ(ø¡Š1ë‚Zå;KÝÕúÖ‚ïjó(VF–k¿§­VÌWt„ â¿5«ˆu.Âvï™‚½R‘‹" +|j¿ƒ@œcÌIv²«d	¶fÐdØ—,c«š^XŠ€»‡§°¾}Rºz«{ð÷TÌs	{6·áþñ]x÷þCxxx6‹!½åy¬),—«“n5ï|„kûñ{ò­$çÚ>DúëR5^âãÂDáwC¤ Àªd@_Wømb ;`}åŒ…[Ô+i·wÂkÙÑré8ÓÙÌžÁÚó`„…ÐYêŒ¹/Ä¬Ð‘Ÿq•,îÞ{œ€]vvY>Ï/òa— i¹×h<š-€b‰‰8	µ‹íâ¾ü÷T”†OÃÝýáþásx|þKÚý9ÜêûÇßÂ÷ïÿß¾þ7üòþ¯ðüîKøðá‹¬âOYÉYÉ¿uÿWÿ#+øKð¬w¬í=®\Ç	ˆ‚>t­^gá'½¾/¯”´x»Z@bý¥-áˆçLEî§¢€Ùh*èöï¤ý¿)ïÿ3<½û*|“0ÿ%áŸÂÓÓ§ðá×ÏáËçïá×_¾„çgÝ÷ôQ–ð)|üã{øýÓ7Ýû›H\Ë¢XÌ™3k f5÷Ò€L¸{n?FÎÞš€H¤¾ßˆPÐ-YöÃ¹ˆÙ¾Ò=ÑÉ”üß—$ùÌÎ	\
+»#Z¶Ÿ¨g.éñù}¸¿ÇÝ‹€;óE}‚9‹ýã‰¹\Y·×Óo|gÅÞxÛó9¥Å$yçwQyÚ²ýð8ó;Ð5÷cÙOÃ„_báæÿ%Tz:tG)Ðº}²r~ï†Ò¶&í\¯7ò÷ëðøø,÷óÁ2#‚±e=JGã¢>AšLŠí0øÿ®Ã²3ÆÇ™ŒùÛó;$@È<!ÜsP¤€ìDT€ %ÑYþ"Béæb‚·N¨µ6Ö:¨Õ;V%W˜YÀgi­žKÈ÷ÊlÖki¹MÎ;¡«ÍƒÝÃ.¯ª‡fk¬ˆÍ]ì®Ko²qÊ‘±=§-!ÛïöïyŠ& Ä‰$`ÀLÀfÚ)lÒj[zH6ä.
+í¬IX¸Š¾	wJ{Z©äTŽåúšp­“›ñ‰ÚàÞN[Â®s´ZÂ÷±Ó·•®IøXÒÏ	1ójÚ•rÉH«Êròç™o!yçŽà- ‰ðÐÿw—„ÿ-¿4Üh;4ì~“ß—¿f‘Å{A}ùy¶°ˆŒn_ß‡¦é,ÔŒå^¾»bÅÌ´Ÿâl±ºõ–E²¥%’@“ŽvíëZ“ÎEZ{ÄÆ¦ñJxëY?Tìz‹v0§maŸØ3M½b`žÞeÏgIàZ$4Ž-Š]®Ø‚È9â„Y¿×a!|Š©õ†VôRBI¨é®:c7D¯Èùe1\ƒ6wÙr¦Hm¶duÝÅ™†,7ç­¯OÈ’|Ñ(;QpOj²ØÜy_„â,`Wöá¸¯MÏûÊ»Ÿ£F9¸×wCD µäóé€ÊÇ\§ÊŒÐpâñVÄr­X°"ò
+‰.¨Ýö=¨Ä®àëM6w¥£||qŒ‰¦ã>OÎï*8q±"sálØ Ï1;î³‰m#f%+ây' ‹ SÚê µ#Ó\vN˜ åÿ}—µ» ¬´¾£qo÷Øú€Hb‘†êÕ+ã±Å\ 	€ed‰r$ãJæäóãÜþœ
+@BÀÛ¾$éDû×ÌÈœ$ ²"\õðè„ò™ZÖ¼“PúæöÑZÖôŽpSX -þûXc`aŸvÄ´Þ„oIB´Àí1íÏ·ˆ+ÖŠß*¿®ÖºV½@…\';’ö“!˜é„š{±ÕÉ†_¹'šr¸¡° ö±±—…{ï3ùß5Aj’49±HÞÈ²@KúÔ–õÜü8·})»y<N€O´lBO–¶±ÙN5ž£mÔlÛŠo¹!b®Š`Os²øî»ê|s/™]XÿL[„ú$q‹‰5:òÆ™ÂÇ{ñœ‹\)É¤ˆ¶¹K ]à¶¹”dÝ€4DšŠö¯•–B€4¡Ê®k–2KDíi‚²íØS*L%î$x{ÄÓRHÈâ°¬¢ûÊ»vÅ¥¡yç¯…?o›âE‘mg¤”þ'O
+´" ÍFðboÈ„ØSD] haP¨Í”šú6÷¾ˆ ê®'['‰ðI/I‡E µc–ŒBçúsbÀe„¥dðgA¦eú=¹8nwB, 7ƒU€ýíeBJKE+gdI€BŽxA< ¡G!è›…ùC@i¿õ§”…¬ÀbBü~=	Gæûóƒ0ƒË"ïGB„î¡ø¡¯Ceëq€…{wG–ŽÒ²…™…¹!öqäEÖƒÙ¶F}¦Y.l?}#·‡“a;<È˜„W`ÅpÍ ø~±çîÄ¸@øT­m¹ „ê‹õh<;èX Oº¡òùTÉdEK‘€@)(ÖÂk°}¥1%Õ³}/+ß!ð9!¼Ð
+Ž(×?Ãv…ŸdÜMÁC–i¿â î‡¬ÿN¡Ó¶èY`ö˜@Êi»&·©¦u4ø}K²5èí·c}"vÕ)Føƒ@,a› ì‹åÏïŽpN…û:x®…þ¢åœc¢q²‰É{]à¹:AÓszß°kEšŽ¤£dCmÒUK;½¥Íßp¤‘Çuˆã·ì¬æ}Ñµ°LÚj÷u¾'×Ä_födYDS÷Å^•?§ æ”†nŸ|Ð/×„T‹˜˜
+#f"æ—¥}æÈTDBµVK² UZ=4­ÆÅ Ùþ—ù¸/ÖÈ~XÐ!M•µèRPËûõ\[¡Ó;ÈˆxD6ÛÐ×}XAB€	äÍç<dä´o¯0§³›Æ
+îwÍ÷âÈ¼ ÕøLX|&-•¶RõFWDx¡eƒ–üQ8ý 2$zü…i™ÎQýDÊÒrf_iGÏiÈ
+è±…²ÖhKä‚2à!~vÈ<…PÒHˆ‰$¸ðÓô-f£/‹ú¬ø&,Öøk²$¬ƒ¾ÖB¶äÿ
+Á×•ÙÀ‹Ð}o$|É€È°ªgg]ç½N@â2Ì‡ä¡ò¢`Çpþ‡š÷ì¹    IEND®B`‚
