@@ -6,8 +6,9 @@ insert_anchor_links = "right"
 
 [AAS WorldWide Telescope][wwt] “tours” are scripted, multimedia experiences
 that guide the viewer through WWT’s simulated universe. Imagine a PowerPoint
-presentation that explores 3D space and time, with annotations, links, and
-interactive elements.
+presentation that overlays the standard text blocks, links, and interactive
+elements on top of astronomical imagery in two, three, or even four
+dimensions.
 
 [wwt]: https://worldwidetelescope.org/home
 
