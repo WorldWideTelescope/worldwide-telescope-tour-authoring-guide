@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/aasworldwidetelescope/WWT/_apis/build/status/WorldWideTelescope.worldwide-telescope-tour-authoring-guide?branchName=master)](https://dev.azure.com/aasworldwidetelescope/WWT/_build/latest?definitionId=16&branchName=master)
+
 # WWT Tour Authoring Guide: Source Code
 
 This repository contains the source code for the [WWT Tour Authoring Guide].
