@@ -13,11 +13,10 @@ environment can create symptoms similar to motion sickness.
 
 One of the amazing things about VR is that users have a natural sense of
 interaction by moving their heads that requires no training. For instance the
-[Impacts Tour](http://www.worldwidetelescope.org/Planetariums/Impacts) has
-been shown to kids in Kindergarten, to seniors and all folks in between – all
-of them interacted with the experience without any specific instruction – with
-the exception that people do need to be reminded to look in some direction
-other than forward.
+[Impacts Tour](@/impacts/index.md) has been shown to kids in Kindergarten, to
+seniors and all folks in between – all of them interacted with the experience
+without any specific instruction – with the exception that people do need to
+be reminded to look in some direction other than forward.
 
 In WWT there are two different types of VR experiences. One experience is a
 more formal **Virtual Reality** experience. The other type we call **Divine
@@ -29,12 +28,13 @@ Visualization**.
 It is very important to start with the story. Tours naturally lend themselves
 to fairly strict VR experiences and many WWT stories involve moving the user
 through space and telling them what the objects are that they are seeing. This
-is the basic structure of the Impacts tour. In the Impacts tour, we were in
-this VR experience mode until the last two slides where we switched to Divine
-Visualization where we showed the Solar System in an unrealistic way. Tilting
-the view of the Solar System and even visualizing asteroids and orbit lines
-break the illusion of what someone would actually see. In Impacts we
-transition from one form to another, but don’t go back and forth in the Tour.
+is the basic structure of the [Impacts tour](@/impacts/index.md). In the
+Impacts tour, we were in this VR experience mode until the last two slides
+where we switched to Divine Visualization where we showed the Solar System in
+an unrealistic way. Tilting the view of the Solar System and even visualizing
+asteroids and orbit lines break the illusion of what someone would actually
+see. In Impacts we transition from one form to another, but don’t go back and
+forth in the Tour.
 
 We created Impacts to test out the production features of WWT as well as learn
 about VR production. You can follow your own production experiences but

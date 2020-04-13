@@ -102,10 +102,10 @@ example, reading the text of the abstract verbatim took about 2:15.
 
 Record draft narration for timing. Don’t worry about flubs or mistakes as long
 as they don’t change the time appreciably. It is suggested to use
-[Audacity](https://audacity.sourceforge.net), which is a free tool available
-on Mac OS, Linux or Windows to record and edit audio. However, feel free to
-use any program that can create a high-quality MP3 file. See the
-[Audio](@/audio.md) section for further advice.
+[Audacity](https://en.wikipedia.org/wiki/Audacity_(audio_editor)), which is a
+free tool available on Mac OS, Linux or Windows to record and edit audio.
+However, feel free to use any program that can create a high-quality MP3 file.
+See the [Audio](@/audio.md) section for further advice.
 
 
 # Step 5: Create draft tour
