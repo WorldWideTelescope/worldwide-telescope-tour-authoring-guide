@@ -1,0 +1,9 @@
+base_url = "//docs.worldwidetelescope.org/tour-authoring-guide/1/"
+title = "WWT Tour Authoring Guide"
+description = "Creating AAS WorldWide Telescope tours."
+theme = "wwtguide"
+highlight_code = true
+
+[extra]
+github_base = "//github.com/WorldWideTelescope/worldwide-telescope-tour-authoring-guide"
+google_analytics_id = "UA-107473046-3"
